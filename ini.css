@@ -53,12 +53,17 @@ body {
   transition: margin-left .5s;
   padding: 16px;
 }
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 .bg {
   /* The image used */
-  background-image: url("https://wallpapercave.com/wp/x2FHDTX.jpg");
+  background-image: url("img_girl.jpg");
 
   /* Full height */
-  height: 50%; 
+  height: 100%; 
 
   /* Center and scale the image nicely */
   background-position: center;
