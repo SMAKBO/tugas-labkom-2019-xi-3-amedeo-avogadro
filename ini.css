@@ -36,11 +36,11 @@ body {
   margin-left: 50px;
 }
 
-.openbtn {
+.openbtn{
   font-size: 20px;
   cursor: pointer;
   background-color: transparent;
-  color:  #ff6600;
+  color:  black;
   padding: 10px 15px;
   border: transparent;
 }
@@ -49,24 +49,38 @@ body {
   background-color: transparent;
 }
 
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
 body, html {
   height: 100%;
-  margin: 0;
 }
 
-.bg {
+
+
+body, html {
+  height: 100%;
+}
+
+.bg-image {
   /* The image used */
-  background-image: url("https://wallpapercave.com/wp/x2FHDTX.jpg");
+  background-image: url("https://images.wallpaperscraft.com/image/paper_crumpled_background_69778_3840x2160.jpg");
+
+  
 
   /* Full height */
-  height: 100%; 
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
